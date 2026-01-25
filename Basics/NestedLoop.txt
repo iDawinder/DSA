@@ -1,0 +1,67 @@
+HOW A NESTED LOOP WORKS AND HOW THIS CODE PRINTS THE PATTERN
+
+
+*
+**
+***
+****
+
+
+We are going to talk about HOW A NESTED LOOP WORKS and how this code is able to print the above pattern.
+
+
+FIRST ITERATION
+
+On the first iteration, we have line = 1 and star = 1.
+
+The first condition checked in the inner loop is:
+
+while (star <= line)
+
+Here, 1 <= 1, which is true, so the star is printed.
+
+Then star++ is executed, and now star becomes 2.
+
+Now the condition is checked again:
+
+2 <= 1
+
+This is false, so the loop exits, and with the help of println, it goes to the next line.
+
+Now remember that the star value will be reset to 1.
+
+
+
+SECOND ITERATION
+
+Now line = 2, and the inner loop checks:
+
+1 <= 2 → true
+
+A star is printed.
+
+Again, star increases to 2.
+
+The condition is checked again:
+
+2 <= 2 → true
+
+Another star is printed.
+
+Now star becomes 3.
+
+The condition is checked again:
+
+3 <= 2 → false
+
+The loop exits, and the star value becomes 1 again.
+
+With the help of println, we move to the next line.
+
+REMAINING ITERATIONS
+
+The remaining iterations will follow the same process as explained above.
+
+IMPORTANT NOTE
+
+Nested loops are important to understand because later they are going to be used in DP (Dynamic Programming).
