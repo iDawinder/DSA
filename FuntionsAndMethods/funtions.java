@@ -3,7 +3,7 @@ import java.util.*;
 
 public class funtions{
 
-    public static int sumOfTowNumbers(int a,int b){
+    public static int sumOfTowNumbers(int a,int b){  //parameters  fromal parameters
         return  a + b;
     }
 
@@ -13,6 +13,7 @@ public class funtions{
         int a= sc.nextInt();
          System.out.println("Enter the second number: ");
         int b=sc.nextInt();
-        System.out.print(sumOfTowNumbers(a, b));
+        System.out.print( "The sum of two numbers is :- "  + sumOfTowNumbers(a, b));//arguments  actual parametres
+        sc.close();
     }
 }
