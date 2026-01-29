@@ -1,0 +1,17 @@
+the hollow rectangle is looks like 
+
+* * * * *
+*       *
+*       *
+* * * * *
+
+so we can visualize it like matrix we read in 10th and 12th class 
+in which we have rows horizontally and coloumns vertically
+
+the size of matrix is rows into coloumns
+
+so according to these hollow rectangle we have matrix of size
+
+4*5
+
+that is 4 rows and the 5 columns
