@@ -1,0 +1,76 @@
+Binary Search
+
+Only applied on the sorted arrays
+
+applying the binary search on array=[1,3,5,7,9,11,13,15]
+target to find 9 at which index
+
+Dry run
+
+while start <= end
+this loop runs while the value of start is less than equal to end
+
+we take the mid value = (start + end) / 2
+where start is 0 and the end is arr.length - 1
+
+our array has 8 elements so
+
+(0 + 7) / 2 is equal to 3 in programming languages so our mid value comes as 3
+
+now we check the condition to find
+
+the condition is
+if (numbers[mid] == target)
+
+then we stop the loop
+and return the mid and then exit when the condition becomes true
+
+in our case
+
+we have mid = 3 so numbers[mid] is numbers[3] which is 7
+
+so check if the number is < than target is yes this means the target number must be at the right because array is sorted in ascending order
+7 < 9
+yes
+
+then what we do is
+start = mid + 1
+
+now mid was 3 now we have
+start = 3 + 1
+start became 4
+
+now loop when start <= end
+4 <= 7 yes
+
+then again next iteration
+
+mid = (start + end) / 2
+start value updated already
+so (4 + 7) / 2 is 5
+
+now numbers[5] which is 11
+we check if 11 == target
+11 == 9 no then we move
+
+then we check
+if 11 < 9 no then we move and check
+if 11 > 9 yes this means
+
+the target must be at the left now
+
+so we
+end = mid - 1
+end = 5 - 1 = 4
+
+again loop check if 4 <= 4 yes
+
+then we
+mid = (start + end) / 2
+
+which (4 + 4) / 2 which is 4
+
+now numbers[4] == target yes this time we got the 9
+and return mid which is 4
+
+end
