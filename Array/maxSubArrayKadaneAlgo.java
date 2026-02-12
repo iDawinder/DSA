@@ -21,4 +21,4 @@ public class maxSubArrayKadaneAlgo {
     }
 }
 
-//code not work for all the negative value in array
+//code not work for all the negative value in array special case needed for that
