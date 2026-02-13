@@ -1,4 +1,4 @@
-## Note on Arrays (JavaScript vs Java)#
+## Note on Arrays#
 
 I won’t go into an introduction of arrays here, as I already have experience with JavaScript and have worked on several major and minor projects of my own. So the basic concept of arrays is already clear.
 
@@ -13,9 +13,8 @@ This is possible because JavaScript arrays are actually objects and behave more 
 Example (JavaScript)
 let arr = ["apple", "car", 4.5, 6];
 
-## About Uploading Images
+## About Array Questions
 
-I may not upload images one by one.
-If possible, I will try to upload a single PDF containing all the images, with the file name written at the top of each image, so it’s easy to identify which image belongs to which file.
-
-If I’m unable to find a proper way to upload a PDF, I will upload the images individually in an organized manner.
+I am going to do intermediate level questions here once i go through all the DSA levels 
+like other topics- time comlexity, resursion ,stack, graph, link last etc. then i'll going 
+to follow my DSA journey on LEET CODE
