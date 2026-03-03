@@ -1,0 +1,26 @@
+For automatic sort in java 
+we have to import the 
+
+import java.util.* or
+import java.util.Arrays
+
+
+we write
+
+Arrays.sort(arrayname, starting index ,ending index)
+
+here we the ending index is excluded 
+
+and starting index and ending are optional when we need only particular part or array to be sorted
+
+for normal sorting we can just write the array name  and that's it 
+
+the default sort in ascending order 
+
+to sort in descending order we have to write 
+collections.reverseOrder()
+
+method with the array name 
+the imoportant thing about the collections.reverseOrder() is that it only work on the objects 
+so it won't work on the int arr[]=
+we have to create object 
