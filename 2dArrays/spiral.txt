@@ -1,0 +1,10 @@
+if the n*n is the odd 
+
+then the condtions like starRow < endRow won't work that's why we have to write the the = sign 
+
+becuse if n if  odd then after the first cross we only have the one elment left in the center always
+
+and the reason we write both startRow <= endRow && startCol <= endCol
+
+is because so we can solve not only n*n but also n*m type of matrix 
+
