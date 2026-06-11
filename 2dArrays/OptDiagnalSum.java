@@ -1,3 +1,6 @@
+//optimized diagnal sum 
+
+
 public class OptDiagnalSum {
 
     public static void calculateDiagnalSum(int[][] matrix) {
