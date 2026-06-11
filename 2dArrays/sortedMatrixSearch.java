@@ -42,3 +42,23 @@ public class sortedMatrixSearch {
     }
 
 }
+
+// break if we write the break in the loop it only break the loop and and print
+// the
+// System.out.println("Unable to find the target key"); statement even when we
+// found
+// the element so we write the return which mean return from whole fuction
+// itself and
+// now when the key is found we got only whats written in the first if condtion
+// otherwise
+// System.out.println("Unable to find the target key");
+// Another point
+// if the key is let's say 60 which mean it is greter so we have to move down
+// but the maximum in
+// array is 50 so the condition in while loop prevent to go further from the 50
+// and stop the loop and
+// help to print System.out.println("Unable to find the target key");
+
+// similar if the key is 5 the columns conditoin prevent the loop to go out of
+// the boundries exceeding to
+// the left of 10
