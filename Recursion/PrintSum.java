@@ -8,7 +8,6 @@ public class PrintSum {
 
     }
     public static void main(String[] args) {
-        // CalculateSum(5);
         System.out.println( CalculateSum(5));
     }
 }
