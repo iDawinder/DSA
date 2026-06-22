@@ -18,6 +18,6 @@ public class FirstOccurence{
        int key=sc.nextInt();
         int result=checkFirstOccurence(arr,0,key);
         System.out.println(result);
-        sc.close();
+      
     }
 }
